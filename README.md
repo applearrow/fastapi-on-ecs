@@ -5,6 +5,15 @@
 
 ## Setup, Deploy, and Destroy
 
+### Requirements
+
+- Terraform
+
+  `brew tap hashicorp/tap`
+  
+  `brew install hashicorp/tap/terraform`
+  
+
 ### Setup Env Variables
 Add an `.env` file containing your AWS account ID and region. Example file:
 ```
